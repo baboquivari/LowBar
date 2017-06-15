@@ -1,0 +1,21 @@
+{
+  "name": "lowbar",
+  "version": "1.0.0",
+  "description": "A re-implementation of Underscore's methods.",
+  "main": "lowbar.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^4.0.0",
+    "husky": "^0.13.1",
+    "sinon": "^1.17.7"
+  },
+  "scripts": {
+    "test": "mocha ./spec/",
+    "lint": "eslint ./",
+    "precommit": "npm test"
+  },
+  "keywords": [],
+  "author": "Tony Sian",
+  "license": "ISC"
+}
